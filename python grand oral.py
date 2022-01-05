@@ -22,7 +22,7 @@ for i in range(1,2):
 
 OnOff = 0
 Compteur = 0
-path = r"C:\Users\rayan ... (enlever?)
+path = "C:\Users\rabbaci\Desktop\manga"
 
 with open(os.path.join(path,"En_Cours.txt"),"r") as file:
     M = file.read()
