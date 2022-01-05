@@ -1,3 +1,6 @@
+#Lecteur de Scan
+
+
 import os
 import re
 import urllib.request
@@ -10,11 +13,16 @@ from kivy.uix.image import Image
 from kivy.core.window import Window
 
 #https://towardsdatascience.com/a-step-by-step-guide-to-download-manga-comic-using-python-581c10d732b9 IMPLEMENTER CA
+img = []
 
+for i in range(1,2):
+    for j in range(1,200):
+        urlsite = https://scanmanga-vf.cc/
+         request = requests.get(URL)
 
 OnOff = 0
 Compteur = 0
-path = r"C:\Users\rayan ...
+path = r"C:\Users\rayan ... (enlever?)
 
 with open(os.path.join(path,"En_Cours.txt"),"r") as file:
     M = file.read()
